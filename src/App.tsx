@@ -9,7 +9,7 @@ function App() {
     <div className="container">
       {!showImage ? (
         <button onClick={() => setShowImage(true)} className="open-btn">
-          Pa testing Paolo
+          Pa testing 
         </button>
       ) : (
         <img src={imageUrl} alt="Replaced" className="fade-in-wiggle " />
